@@ -1,0 +1,639 @@
+{
+	"1": {
+		"name": "Margaret Chin",
+        "borough": "Manhattan",
+        "neighborhoods": [
+            "Lower Manhattan",
+            "SoHo",
+            "NoHo",
+            "TriBeCa",
+            "Washington Square",
+            "South Village",
+            "Battery Park City",
+            "Wall Street",
+            "South Street Seaport",
+            "City Hall",
+            "Little Italy",
+            "Chinatown",
+            "Lower East Side",
+            "Greenwich Village"
+        ]
+	},
+	"2": {
+		"name": "Rosie Mendez",
+        "borough": "Manhattan",
+        "neighborhoods": [
+            "Lower East Side",
+            "East Village",
+            "Gramercy Park",
+            "Rosehill",
+            "Kips Bay"
+        ]
+	},
+	"3": {
+		"name": "Corey Johnson",
+        "borough": "Manhattan",
+        "neighborhoods": [
+            "West Village",
+            "SoHo",
+            "NoHo",
+            "Flatiron",
+            "Chelsea",
+            "Hell’s Kitchen",
+            "Clinton",
+            "Murray Hill",
+            "Greenwich Village"
+        ]
+	},
+	"4": {
+		"name": "Daniel Garodnick",
+        "borough": "Manhattan",
+        "neighborhoods": [
+            "East Side",
+            "Upper East Side",
+            "Central Park South",
+            "Grand Central",
+            "Tudor City",
+            "Waterside",
+            "Peter Cooper Village",
+            "Carnegie Hill",
+            "Stuyvesant Town",
+            "United Nations"
+        ]
+	},
+	"5": {
+		"name": "Benjamin Kallos",
+        "borough": "Manhattan",
+        "neighborhoods": [
+            "Upper East Side",
+            "Beekman",
+            "Sutton Place",
+            "Upper East Side",
+            "Yorkville",
+            "Roosevelt Island"
+        ]
+	},
+	"6": {
+		"name": "Helen Rosenthal",
+        "borough": "Manhattan",
+        "neighborhoods": [
+            "Upper West Side"
+        ]
+	},
+	"7": {
+		"name": "Mark D. Levine",
+        "borough": "Manhattan",
+        "neighborhoods": [
+            "West Harlem"
+        ]
+	},
+	"8": {
+		"name": "Melissa Mark-Viverito",
+        "borough": "Manhattan",
+        "neighborhoods": [
+            "East Harlem",
+            "Manhattan Valley",
+            "Bronx",
+            "Mott Haven"
+        ]
+	},
+	"9": {
+		"name": "Bill Perkins",
+        "borough": "Manhattan",
+        "neighborhoods": [
+            "Harlem",
+            "Central Harlem"
+        ]
+	},
+	"10": {
+		"name": "Ydanis Rodríguez",
+        "borough": "Manhattan",
+        "neighborhoods": [
+            "Washington Heights",
+            "Inwood"
+        ]
+	},
+	"11": {
+		"name": "Andrew Cohen",
+        "borough": "Bronx",
+        "neighborhoods": [
+            "Kingsbridge",
+            "Riverdale",
+            "Woodlawn",
+            "Norwood",
+            "Bedford Park",
+            "Wakefield",
+            "Bronx Park East"
+        ]
+	},
+	"12": {
+		"name": "Andy King",
+        "borough": "Bronx",
+        "neighborhoods": [
+            "Edenwald",
+            "Co-Op City",
+            "Wakefield",
+            "Williamsbridge",
+            "Baychester"
+        ]
+	},
+	"13": {
+		"name": "James Vacca",
+        "borough": "Bronx",
+        "neighborhoods": [
+            "Pelham Parkway",
+            "Pelham Bay",
+            "Country Club",
+            "City Island",
+            "Throggs Neck",
+            "Allerton",
+            "Morris Park"
+        ]
+	},
+	"14": {
+		"name": "Fernando Cabrera",
+        "borough": "Bronx",
+        "neighborhoods": [
+            "Fordham",
+            "Kingsbridge",
+            "Morris Heights",
+            "West Bronx"
+        ]
+	},
+	"15": {
+		"name": "Ritchie Torres",
+        "borough": "Bronx",
+        "neighborhoods": [
+            "West Farms"
+        ]
+	},
+	"16": {
+		"name": "Vanessa Gibson",
+        "borough": "Bronx",
+        "neighborhoods": [
+            "West Bronx",
+            "Morrisania",
+            "South Bronx",
+            "Highbridge",
+            "Melrose"
+        ]
+	},
+	"17": {
+		"name": "Rafael Salamanca",
+        "borough": "Bronx",
+        "neighborhoods": [
+            "Mott Haven"
+        ]
+	},
+	"18": {
+		"name": "Annabel Palma",
+        "borough": "Bronx",
+        "neighborhoods": [
+            "Parkchester",
+            "Soundview",
+            "Castle Hill",
+            "Classon Point",
+            "Harding Park"
+        ]
+	},
+	"19": {
+		"name": "Paul Vallone",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Bayside",
+            "College Point",
+            "Auburndale",
+            "Beechhurst",
+            "Whitestone",
+            "Bay Terrace",
+            "Flushing",
+            "Douglaston",
+            "Little Neck"
+        ]
+	},
+	"20": {
+		"name": "Peter Koo",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Flushing",
+            "Queensboro Hill",
+            "Mitchell Gardens",
+            "Kissena Park",
+            "Harding Heights",
+            "Auburndale",
+            "Whitestone"
+        ]
+	},
+	"21": {
+		"name": "Julissa Ferreras",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Elmhurst",
+            "East Elmhurst",
+            "Corona",
+            "Jackson Heights"
+        ]
+	},
+	"22": {
+		"name": "Costa Constantinides",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Astoria",
+            "Long Island City",
+            "Jackson Heights",
+            "Rikers Island",
+            "Randall's Island",
+            "Ward's Island"
+        ]
+	},
+	"23": {
+		"name": "Barry Grodenchik",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Hollis Hills",
+            "Queens Village",
+            "Little Neck",
+            "Douglaston",
+            "Bayside",
+            "Bellerose",
+            "Floral Park",
+            "Glen Oaks",
+            "Hollis",
+            "Hollis Park Gardens",
+            "Holliswood",
+            "Fresh Meadows",
+            "Oakland Gardens"
+        ]
+	},
+	"24": {
+		"name": "Rory Lancman",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Briarwood",
+            "Fresh Meadows",
+            "Hillcrest",
+            "Hillcrest Estates",
+            "Jamaica Estates",
+            "Jamaica Hills",
+            "Kew Gardens Hills",
+            "Utopia Estates",
+            "Forest Hills",
+            "Flushing",
+            "Jamaica",
+            "Rego Park"
+        ]
+	},
+	"25": {
+		"name": "Daniel Dromm",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Jackson Heights",
+            "Elmhurst",
+            "East Elmhurst",
+            "LeFrak City",
+            "Corona",
+            "Rego Park",
+            "Woodside"
+        ]
+	},
+	"26": {
+		"name": "James Van Bramer",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Woodside",
+            "Sunnyside",
+            "Long Island City",
+            "Astoria",
+            "Maspeth"
+        ]
+	},
+	"27": {
+		"name": "Daneek Miller",
+        "borough": "Queens",
+        "neighborhoods": [St. Albans",
+            "Hollis",
+            "Cambria Heights",
+            "Jamaica",
+            "Baisley Park",
+            "Addisleigh Park"
+        ]
+	},
+	"28": {
+		"name": "Ruben Wills",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Jamaica",
+            "JFK Airport",
+            "Ozone Park",
+            "Richmond Hill",
+            "South Ozone Park",
+            "Springfield Gardens"
+        ]
+	},
+	"29": {
+		"name": "Karen Koslowitz",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Forest Hills",
+            "Forest Park",
+            "Kew Gardens",
+            "Rego Park",
+            "Richmond Hill"
+        ]
+	},
+	"30": {
+		"name": "Elizabeth Crowley",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Glendale",
+            "Ozone Park",
+            "Woodhaven",
+            "Middle Village",
+            "Maspeth",
+            "Richmond Hill"
+        ]
+	},
+	"31": {
+		"name": "Donovan Richards",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Arverne",
+            "Bayswater",
+            "Broad Channel",
+            "Cambria Heights",
+            "Edgemere",
+            "Far Rockaway",
+            "Howard Beach",
+            "Jamaica",
+            "JFK Airport",
+            "Laurelton",
+            "Rockaway Beach",
+            "Rosedale",
+            "South Ozone Park",
+            "Springfield Gardens"
+        ]
+	},
+	"32": {
+		"name": "Eric Ulrich",
+        "borough": "Queens",
+        "neighborhoods": [
+            "Belle Harbor",
+            "Breezy Point",
+            "Broad Channel",
+            "Hamilton Beach",
+            "Howard Beach",
+            "Lindenwood",
+            "Neponsit",
+            "Ozone Park",
+            "Rockaway Beach",
+            "Rockaway Park",
+            "South Ozone Park",
+            "South Richmond Hill",
+            "Woodhaven"
+        ]
+	},
+	"33": {
+		"name": "Stephen Levin",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Boerum Hill",
+            "Brooklyn Heights",
+            "Greenpoint",
+            "Williamsburg"
+        ]
+	},
+	"34": {
+		"name": "Antonio Reynoso",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "East Williamsburg",
+            "Bushwick"
+        ]
+	},
+	"35": {
+		"name": "Laurie Cumbo",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Clinton Hill",
+            "Fort Greene",
+            "Crown Heights",
+            "Prospect Heights",
+            "Bedford-Stuyvesant",
+            "Bed Stuy"
+        ]
+	},
+	"36": {
+		"name": "Robert Cornegy: Jr.",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Crown Heights",
+            "Bedford-Stuyvesant",
+            "Bed Stuy"
+        ]
+	},
+	"37": {
+		"name": "Rafael Espinal",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Bushwick",
+            "Cypress Hills",
+            "East New York",
+            "Ocean Hill",
+            "Brownsville"
+        ]
+	},
+	"38": {
+		"name": "Carlos Menchaca",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Sunset Park",
+            "Boerum Hill",
+            "Red Hook",
+            "Windsor Terrace"
+        ]
+	},
+	"39": {
+		"name": "Brad Lander",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Park Slope",
+            "Cobble Hill",
+            "Carroll Gardens",
+            "Windsor Terrace",
+            "Kensington",
+            "Borough Park"
+        ]
+	},
+	"40": {
+		"name": "Mathieu Eugene",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Crown Heights",
+            "Flatbush"
+        ]
+	},
+	"41": {
+		"name": "Darlene Mealy",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Bedford-Stuyvesant",
+            "Bed Stuy",
+            "Ocean Hill",
+            "East Flatbush"
+        ]
+	},
+	"42": {
+		"name": "Inez Barron",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "East New York",
+            "Brownsville",
+            "Canarsie",
+            "East Flatbush"
+        ]
+	},
+	"43": {
+		"name": "Vincent J. Gentile",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Bay Ridge",
+            "Dyker Heights",
+            "Bensonhurst"
+        ]
+	},
+	"44": {
+		"name": "David G. Greenfield",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Bensonhurst",
+            "Borough Park",
+            "Midwood"
+        ]
+	},
+	"45": {
+		"name": "Jumaane Williams",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Crown Heights",
+            "Canarsie",
+            "East Flatbush"
+        ]
+	},
+	"46": {
+		"name": "Alan Maisel",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Bergen Beach",
+            "Canarsie",
+            "Georgetown",
+            "Flatlands",
+            "Marine Park",
+            "Mill Basin",
+            "Mill Island",
+            "Gerritsen Beach",
+            "Madison",
+            "Sheepshead Bay"
+        ]
+	},
+	"47": {
+		"name": "Mark Treyger",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Bensonhurst",
+            "Gravesend",
+            "Coney Island",
+            "Brighton Beach"
+        ]
+	},
+	"48": {
+		"name": "Chaim Deutsch",
+        "borough": "Brooklyn",
+        "neighborhoods": [
+            "Midwood",
+            "Sheepshead Bay",
+            "Homecrest",
+            "Brighton Beach"
+        ]
+	},
+	"49": {
+		"name": "Deborah Rose",
+        "borough": "Staten Island",
+        "neighborhoods": [
+            "Arlington",
+            "Bloomfield",
+            "Bull's Head",
+            "Castleton Corners",
+            "Clifton",
+            "Concord",
+            "Emerson Hill",
+            "Fort Wadsworth",
+            "Graniteville",
+            "Grymes Hill",
+            "Howland Hook",
+            "Mariners Harbor",
+            "New Brighton",
+            "Park Hill",
+            "Port Ivory",
+            "Port Richmond",
+            "Randall Manor",
+            "Rosebank",
+            "Shore Acres",
+            "Silver Lake",
+            "St. George",
+            "Stapleton",
+            "Todt Hill",
+            "Tompkinsville",
+            "West Brighton",
+            "Westerleigh",
+            "Willowbrook"
+        ]
+	},
+	"50": {
+		"name": "Steven Matteo",
+        "borough": "Staten Island",
+        "neighborhoods": [
+            "Arrochar",
+            "Bulls Head",
+            "Castleton Corners",
+            "Concord",
+            "Dongan Hills",
+            "Emerson Hill",
+            "Fort Wadsworth",
+            "Grant City",
+            "Graniteville",
+            "Grasmere",
+            "Island of Meadows",
+            "Meiers Corners",
+            "Midland Beach",
+            "New Dorp",
+            "Oakwood",
+            "Prall's Island",
+            "Richmondtown",
+            "South Beach",
+            "Todt Hill",
+            "Travis",
+            "Westerleigh",
+            "Willowbrook"
+        ]
+	},
+	"51": {
+		"name": "Joseph Borelli",
+		"borough": "Staten Island",
+		"neighborhoods": [
+            "Arden Heights",
+            "Annadale",
+            "Bay Terrace",
+            "Tottenville",
+            "Great Kills",
+            "Richmondtown",
+            "Charleston",
+            "Rossville",
+            "New Springville",
+            "Eltingville",
+            "Woodrow",
+            "Richmond Valley",
+            "Huguenot",
+            "Prince's Bay",
+            "Pleasant Plains"
+        ]
+}

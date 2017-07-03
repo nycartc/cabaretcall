@@ -5,6 +5,7 @@
 var express = require('express');
 var app = express();
 var jsonfile = require('jsonfile');
+var hbs = require("hbs");
 
 // we've started you off with Express, 
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
@@ -12,32 +13,86 @@ var jsonfile = require('jsonfile');
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));
 
-// http://expressjs.com/en/starter/basic-routing.html
-app.get("/", function (request, response) {
-  response.sendFile(__dirname + '/views/index.html');
-});
+// https://www.npmjs.com/package/hbs
+app.set("view engine", "hbs");
+app.set("views", __dirname + "/views");
+hbs.registerPartials(__dirname + '/views/partials');
 
-app.get("/calls", function (request, response) {
-  response.sendFile(__dirname + "/calls.json");
-});
 
-app.get("/call/new", function (request, response) {
-  if (request.query.message){
-    var message = request.query.message;
-    jsonfile.readFile(__dirname + "/calls.json", function(err, obj) {
-      obj.calls.push(message);
-      jsonfile.writeFile(__dirname + "/calls.json", obj, function(err) {
-          if (err){
-            throw err;
-          } else {
-            response.status(200);
-            response.send("OK");
-          }
-      });
+function sendOK(req, res) {
+  res.status(200);
+  res.send("OK");
+  return;
+}
+
+function sendError(req, res, error) {
+  res.status(400);
+  var errorMessage = "Error";
+  if (error) {
+    errorMessage += ": " + error;
+  }
+  res.send(error);
+  return;
+}
+
+function getData(filename, object, callback) {
+  try {
+    jsonfile.readFile(__dirname + "/public/" + filename + ".json", function(err, obj) {
+      if (err) {
+        throw err;
+      } else {
+        callback(obj[object]);
+        return;
+      }
     });
-  } else {
-    response.status(400);
-    response.send("Error");
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+
+
+app.get("/", function (req, res) {
+  
+  getData("script", "script", function(script) {
+    res.locals = {
+      script: script
+    }
+
+    res.render("index");
+  });
+
+});
+
+app.get("/calls", function (req, res) {
+  res.sendFile(__dirname + "/public/calls.json");
+});
+
+app.get("/call/new", function (req, res) {
+  try {
+    if (req.query.district){
+      var district = req.query.district;
+      jsonfile.readFile(__dirname + "/public/calls.json", function(err, obj) {
+        if (err) {
+          throw err;
+        } else {
+          var d = new Date()
+          obj[district].push(d);
+          jsonfile.writeFile(__dirname + "/public/calls.json", obj, function(err) {
+            if (err){
+              throw err;
+            } else {
+              res.status(201);
+              res.json(obj);
+            }
+          });
+        }
+      });
+    } else {
+      throw "Error: No message";
+    } 
+  } catch (err) {
+    sendError(req, res);
   }
 });
 

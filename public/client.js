@@ -239,7 +239,7 @@ function showCalls(data, name) {
           i +
           ": " +
           districts[i.toString()].name +
-        "</h4>" +
+        "</h4><br>" +
         "<div class='bar bar-" +
         color + 
         "' style='width:" +

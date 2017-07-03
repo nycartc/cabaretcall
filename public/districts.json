@@ -1,639 +1,897 @@
 {
-	"1": {
-		"name": "Margaret Chin",
-        "borough": "Manhattan",
-        "neighborhoods": [
-            "Lower Manhattan",
-            "SoHo",
-            "NoHo",
-            "TriBeCa",
-            "Washington Square",
-            "South Village",
-            "Battery Park City",
-            "Wall Street",
-            "South Street Seaport",
-            "City Hall",
-            "Little Italy",
-            "Chinatown",
-            "Lower East Side",
-            "Greenwich Village"
-        ]
-	},
-	"2": {
-		"name": "Rosie Mendez",
-        "borough": "Manhattan",
-        "neighborhoods": [
-            "Lower East Side",
-            "East Village",
-            "Gramercy Park",
-            "Rosehill",
-            "Kips Bay"
-        ]
-	},
-	"3": {
-		"name": "Corey Johnson",
-        "borough": "Manhattan",
-        "neighborhoods": [
-            "West Village",
-            "SoHo",
-            "NoHo",
-            "Flatiron",
-            "Chelsea",
-            "Hell’s Kitchen",
-            "Clinton",
-            "Murray Hill",
-            "Greenwich Village"
-        ]
-	},
-	"4": {
-		"name": "Daniel Garodnick",
-        "borough": "Manhattan",
-        "neighborhoods": [
-            "East Side",
-            "Upper East Side",
-            "Central Park South",
-            "Grand Central",
-            "Tudor City",
-            "Waterside",
-            "Peter Cooper Village",
-            "Carnegie Hill",
-            "Stuyvesant Town",
-            "United Nations"
-        ]
-	},
-	"5": {
-		"name": "Benjamin Kallos",
-        "borough": "Manhattan",
-        "neighborhoods": [
-            "Upper East Side",
-            "Beekman",
-            "Sutton Place",
-            "Upper East Side",
-            "Yorkville",
-            "Roosevelt Island"
-        ]
-	},
-	"6": {
-		"name": "Helen Rosenthal",
-        "borough": "Manhattan",
-        "neighborhoods": [
-            "Upper West Side"
-        ]
-	},
-	"7": {
-		"name": "Mark D. Levine",
-        "borough": "Manhattan",
-        "neighborhoods": [
-            "West Harlem"
-        ]
-	},
-	"8": {
-		"name": "Melissa Mark-Viverito",
-        "borough": "Manhattan",
-        "neighborhoods": [
-            "East Harlem",
-            "Manhattan Valley",
-            "Bronx",
-            "Mott Haven"
-        ]
-	},
-	"9": {
-		"name": "Bill Perkins",
-        "borough": "Manhattan",
-        "neighborhoods": [
-            "Harlem",
-            "Central Harlem"
-        ]
-	},
-	"10": {
-		"name": "Ydanis Rodríguez",
-        "borough": "Manhattan",
-        "neighborhoods": [
-            "Washington Heights",
-            "Inwood"
-        ]
-	},
-	"11": {
-		"name": "Andrew Cohen",
-        "borough": "Bronx",
-        "neighborhoods": [
-            "Kingsbridge",
-            "Riverdale",
-            "Woodlawn",
-            "Norwood",
-            "Bedford Park",
-            "Wakefield",
-            "Bronx Park East"
-        ]
-	},
-	"12": {
-		"name": "Andy King",
-        "borough": "Bronx",
-        "neighborhoods": [
-            "Edenwald",
-            "Co-Op City",
-            "Wakefield",
-            "Williamsbridge",
-            "Baychester"
-        ]
-	},
-	"13": {
-		"name": "James Vacca",
-        "borough": "Bronx",
-        "neighborhoods": [
-            "Pelham Parkway",
-            "Pelham Bay",
-            "Country Club",
-            "City Island",
-            "Throggs Neck",
-            "Allerton",
-            "Morris Park"
-        ]
-	},
-	"14": {
-		"name": "Fernando Cabrera",
-        "borough": "Bronx",
-        "neighborhoods": [
-            "Fordham",
-            "Kingsbridge",
-            "Morris Heights",
-            "West Bronx"
-        ]
-	},
-	"15": {
-		"name": "Ritchie Torres",
-        "borough": "Bronx",
-        "neighborhoods": [
-            "West Farms"
-        ]
-	},
-	"16": {
-		"name": "Vanessa Gibson",
-        "borough": "Bronx",
-        "neighborhoods": [
-            "West Bronx",
-            "Morrisania",
-            "South Bronx",
-            "Highbridge",
-            "Melrose"
-        ]
-	},
-	"17": {
-		"name": "Rafael Salamanca",
-        "borough": "Bronx",
-        "neighborhoods": [
-            "Mott Haven"
-        ]
-	},
-	"18": {
-		"name": "Annabel Palma",
-        "borough": "Bronx",
-        "neighborhoods": [
-            "Parkchester",
-            "Soundview",
-            "Castle Hill",
-            "Classon Point",
-            "Harding Park"
-        ]
-	},
-	"19": {
-		"name": "Paul Vallone",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Bayside",
-            "College Point",
-            "Auburndale",
-            "Beechhurst",
-            "Whitestone",
-            "Bay Terrace",
-            "Flushing",
-            "Douglaston",
-            "Little Neck"
-        ]
-	},
-	"20": {
-		"name": "Peter Koo",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Flushing",
-            "Queensboro Hill",
-            "Mitchell Gardens",
-            "Kissena Park",
-            "Harding Heights",
-            "Auburndale",
-            "Whitestone"
-        ]
-	},
-	"21": {
-		"name": "Julissa Ferreras",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Elmhurst",
-            "East Elmhurst",
-            "Corona",
-            "Jackson Heights"
-        ]
-	},
-	"22": {
-		"name": "Costa Constantinides",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Astoria",
-            "Long Island City",
-            "Jackson Heights",
-            "Rikers Island",
-            "Randall's Island",
-            "Ward's Island"
-        ]
-	},
-	"23": {
-		"name": "Barry Grodenchik",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Hollis Hills",
-            "Queens Village",
-            "Little Neck",
-            "Douglaston",
-            "Bayside",
-            "Bellerose",
-            "Floral Park",
-            "Glen Oaks",
-            "Hollis",
-            "Hollis Park Gardens",
-            "Holliswood",
-            "Fresh Meadows",
-            "Oakland Gardens"
-        ]
-	},
-	"24": {
-		"name": "Rory Lancman",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Briarwood",
-            "Fresh Meadows",
-            "Hillcrest",
-            "Hillcrest Estates",
-            "Jamaica Estates",
-            "Jamaica Hills",
-            "Kew Gardens Hills",
-            "Utopia Estates",
-            "Forest Hills",
-            "Flushing",
-            "Jamaica",
-            "Rego Park"
-        ]
-	},
-	"25": {
-		"name": "Daniel Dromm",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Jackson Heights",
-            "Elmhurst",
-            "East Elmhurst",
-            "LeFrak City",
-            "Corona",
-            "Rego Park",
-            "Woodside"
-        ]
-	},
-	"26": {
-		"name": "James Van Bramer",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Woodside",
-            "Sunnyside",
-            "Long Island City",
-            "Astoria",
-            "Maspeth"
-        ]
-	},
-	"27": {
-		"name": "Daneek Miller",
-        "borough": "Queens",
-        "neighborhoods": [St. Albans",
-            "Hollis",
-            "Cambria Heights",
-            "Jamaica",
-            "Baisley Park",
-            "Addisleigh Park"
-        ]
-	},
-	"28": {
-		"name": "Ruben Wills",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Jamaica",
-            "JFK Airport",
-            "Ozone Park",
-            "Richmond Hill",
-            "South Ozone Park",
-            "Springfield Gardens"
-        ]
-	},
-	"29": {
-		"name": "Karen Koslowitz",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Forest Hills",
-            "Forest Park",
-            "Kew Gardens",
-            "Rego Park",
-            "Richmond Hill"
-        ]
-	},
-	"30": {
-		"name": "Elizabeth Crowley",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Glendale",
-            "Ozone Park",
-            "Woodhaven",
-            "Middle Village",
-            "Maspeth",
-            "Richmond Hill"
-        ]
-	},
-	"31": {
-		"name": "Donovan Richards",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Arverne",
-            "Bayswater",
-            "Broad Channel",
-            "Cambria Heights",
-            "Edgemere",
-            "Far Rockaway",
-            "Howard Beach",
-            "Jamaica",
-            "JFK Airport",
-            "Laurelton",
-            "Rockaway Beach",
-            "Rosedale",
-            "South Ozone Park",
-            "Springfield Gardens"
-        ]
-	},
-	"32": {
-		"name": "Eric Ulrich",
-        "borough": "Queens",
-        "neighborhoods": [
-            "Belle Harbor",
-            "Breezy Point",
-            "Broad Channel",
-            "Hamilton Beach",
-            "Howard Beach",
-            "Lindenwood",
-            "Neponsit",
-            "Ozone Park",
-            "Rockaway Beach",
-            "Rockaway Park",
-            "South Ozone Park",
-            "South Richmond Hill",
-            "Woodhaven"
-        ]
-	},
-	"33": {
-		"name": "Stephen Levin",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Boerum Hill",
-            "Brooklyn Heights",
-            "Greenpoint",
-            "Williamsburg"
-        ]
-	},
-	"34": {
-		"name": "Antonio Reynoso",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "East Williamsburg",
-            "Bushwick"
-        ]
-	},
-	"35": {
-		"name": "Laurie Cumbo",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Clinton Hill",
-            "Fort Greene",
-            "Crown Heights",
-            "Prospect Heights",
-            "Bedford-Stuyvesant",
-            "Bed Stuy"
-        ]
-	},
-	"36": {
-		"name": "Robert Cornegy: Jr.",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Crown Heights",
-            "Bedford-Stuyvesant",
-            "Bed Stuy"
-        ]
-	},
-	"37": {
-		"name": "Rafael Espinal",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Bushwick",
-            "Cypress Hills",
-            "East New York",
-            "Ocean Hill",
-            "Brownsville"
-        ]
-	},
-	"38": {
-		"name": "Carlos Menchaca",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Sunset Park",
-            "Boerum Hill",
-            "Red Hook",
-            "Windsor Terrace"
-        ]
-	},
-	"39": {
-		"name": "Brad Lander",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Park Slope",
-            "Cobble Hill",
-            "Carroll Gardens",
-            "Windsor Terrace",
-            "Kensington",
-            "Borough Park"
-        ]
-	},
-	"40": {
-		"name": "Mathieu Eugene",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Crown Heights",
-            "Flatbush"
-        ]
-	},
-	"41": {
-		"name": "Darlene Mealy",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Bedford-Stuyvesant",
-            "Bed Stuy",
-            "Ocean Hill",
-            "East Flatbush"
-        ]
-	},
-	"42": {
-		"name": "Inez Barron",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "East New York",
-            "Brownsville",
-            "Canarsie",
-            "East Flatbush"
-        ]
-	},
-	"43": {
-		"name": "Vincent J. Gentile",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Bay Ridge",
-            "Dyker Heights",
-            "Bensonhurst"
-        ]
-	},
-	"44": {
-		"name": "David G. Greenfield",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Bensonhurst",
-            "Borough Park",
-            "Midwood"
-        ]
-	},
-	"45": {
-		"name": "Jumaane Williams",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Crown Heights",
-            "Canarsie",
-            "East Flatbush"
-        ]
-	},
-	"46": {
-		"name": "Alan Maisel",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Bergen Beach",
-            "Canarsie",
-            "Georgetown",
-            "Flatlands",
-            "Marine Park",
-            "Mill Basin",
-            "Mill Island",
-            "Gerritsen Beach",
-            "Madison",
-            "Sheepshead Bay"
-        ]
-	},
-	"47": {
-		"name": "Mark Treyger",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Bensonhurst",
-            "Gravesend",
-            "Coney Island",
-            "Brighton Beach"
-        ]
-	},
-	"48": {
-		"name": "Chaim Deutsch",
-        "borough": "Brooklyn",
-        "neighborhoods": [
-            "Midwood",
-            "Sheepshead Bay",
-            "Homecrest",
-            "Brighton Beach"
-        ]
-	},
-	"49": {
-		"name": "Deborah Rose",
-        "borough": "Staten Island",
-        "neighborhoods": [
-            "Arlington",
-            "Bloomfield",
-            "Bull's Head",
-            "Castleton Corners",
-            "Clifton",
-            "Concord",
-            "Emerson Hill",
-            "Fort Wadsworth",
-            "Graniteville",
-            "Grymes Hill",
-            "Howland Hook",
-            "Mariners Harbor",
-            "New Brighton",
-            "Park Hill",
-            "Port Ivory",
-            "Port Richmond",
-            "Randall Manor",
-            "Rosebank",
-            "Shore Acres",
-            "Silver Lake",
-            "St. George",
-            "Stapleton",
-            "Todt Hill",
-            "Tompkinsville",
-            "West Brighton",
-            "Westerleigh",
-            "Willowbrook"
-        ]
-	},
-	"50": {
-		"name": "Steven Matteo",
-        "borough": "Staten Island",
-        "neighborhoods": [
-            "Arrochar",
-            "Bulls Head",
-            "Castleton Corners",
-            "Concord",
-            "Dongan Hills",
-            "Emerson Hill",
-            "Fort Wadsworth",
-            "Grant City",
-            "Graniteville",
-            "Grasmere",
-            "Island of Meadows",
-            "Meiers Corners",
-            "Midland Beach",
-            "New Dorp",
-            "Oakwood",
-            "Prall's Island",
-            "Richmondtown",
-            "South Beach",
-            "Todt Hill",
-            "Travis",
-            "Westerleigh",
-            "Willowbrook"
-        ]
-	},
-	"51": {
-		"name": "Joseph Borelli",
-		"borough": "Staten Island",
-		"neighborhoods": [
-            "Arden Heights",
-            "Annadale",
-            "Bay Terrace",
-            "Tottenville",
-            "Great Kills",
-            "Richmondtown",
-            "Charleston",
-            "Rossville",
-            "New Springville",
-            "Eltingville",
-            "Woodrow",
-            "Richmond Valley",
-            "Huguenot",
-            "Prince's Bay",
-            "Pleasant Plains"
-        ]
+ "1": {
+   "name": "Margaret Chin",
+   "borough": "Manhattan",
+   "phone": {
+      "legislative": "212-788-7259",
+      "district": "212-587-3159"
+   },
+   "email": "chin@council.nyc.gov",
+   "neighborhoods": [
+      "Lower Manhattan",
+      "SoHo",
+      "NoHo",
+      "TriBeCa",
+      "Washington Square",
+      "South Village",
+      "Battery Park City",
+      "Wall Street",
+      "South Street Seaport",
+      "City Hall",
+      "Little Italy",
+      "Chinatown",
+      "Lower East Side",
+      "Greenwich Village"
+   ]
+},
+ "2": {
+   "name": "Rosie Mendez",
+   "borough": "Manhattan",
+   "phone": {
+      "legislative": "212-788-7366",
+      "district": "212-677-1077"
+   },
+   "email": "Rmendez@council.nyc.gov",
+   "neighborhoods": [
+      "Lower East Side",
+      "East Village",
+      "Gramercy Park",
+      "Rosehill",
+      "Kips Bay"
+   ]
+},
+ "3": {
+   "name": "Corey Johnson",
+   "borough": "Manhattan",
+   "phone": {
+      "legislative": "212-788-6979",
+      "district": "212-564-7757"
+   },
+   "email": "district3@council.nyc.gov",
+   "neighborhoods": [
+      "West Village",
+      "SoHo",
+      "NoHo",
+      "Flatiron",
+      "Chelsea",
+      "Hell’s Kitchen",
+      "Clinton",
+      "Murray Hill",
+      "Greenwich Village"
+   ]
+},
+ "4": {
+   "name": "Daniel Garodnick",
+   "borough": "Manhattan",
+   "phone": {
+      "legislative": "212-788-7393",
+      "district": "212-818-0580"
+   },
+   "email": "garodnick@council.nyc.gov",
+   "neighborhoods": [
+      "East Side",
+      "Upper East Side",
+      "Central Park South",
+      "Grand Central",
+      "Tudor City",
+      "Waterside",
+      "Peter Cooper Village",
+      "Carnegie Hill",
+      "Stuyvesant Town",
+      "United Nations"
+   ]
+},
+ "5": {
+   "name": "Benjamin Kallos",
+   "borough": "Manhattan",
+   "phone": {
+      "legislative": "212-788-6865",
+      "district": "212-860-1950"
+   },
+   "email": "BKallos@BenKallos.com",
+   "neighborhoods": [
+      "Upper East Side",
+      "Beekman",
+      "Sutton Place",
+      "Upper East Side",
+      "Yorkville",
+      "Roosevelt Island"
+   ]
+},
+ "6": {
+   "name": "Helen Rosenthal",
+   "borough": "Manhattan",
+   "phone": {
+      "legislative": "212-788-6975",
+      "district": "212-873-0282"
+   },
+   "email": "Helen@HelenRosenthal.com",
+   "neighborhoods": [
+      "Upper West Side"
+   ]
+},
+ "7": {
+   "name": "Mark D. Levine",
+   "borough": "Manhattan",
+   "phone": {
+      "legislative": "212-788-7007",
+      "district": "212-928-6814"
+   },
+   "email": "District7@council.nyc.gov",
+   "neighborhoods": [
+      "West Harlem"
+   ]
+},
+ "8": {
+   "name": "Melissa Mark-Viverito",
+   "borough": "Manhattan",
+   "phone": {
+      "legislative": "212-788-7210",
+      "district": "212-828-9800"
+   },
+   "email": "mviverito@council.nyc.gov",
+   "neighborhoods": [
+      "East Harlem",
+      "Manhattan Valley",
+      "Bronx",
+      "Mott Haven"
+   ]
+},
+ "9": {
+   "name": "Bill Perkins",
+   "borough": "Manhattan",
+   "phone": {
+      "legislative": "212-788-7397",
+      "district": "212-678-4505"
+   },
+   "email": "D09perkins@council.nyc.gov",
+   "neighborhoods": [
+      "Harlem",
+      "Central Harlem"
+   ]
+},
+ "10": {
+   "name": "Ydanis Rodríguez",
+   "borough": "Manhattan",
+   "phone": {
+      "legislative": "212-788-7053",
+      "district": "917-521-2616"
+   },
+   "email": "yrodriguez@council.nyc.gov",
+   "neighborhoods": [
+      "Washington Heights",
+      "Inwood"
+   ]
+},
+ "11": {
+   "name": "Andrew Cohen",
+   "borough": "Bronx",
+   "phone": {
+      "legislative": "212-788-7080",
+      "district": "718-549-7300"
+   },
+   "email": "District11@council.nyc.gov",
+   "neighborhoods": [
+      "Kingsbridge",
+      "Riverdale",
+      "Woodlawn",
+      "Norwood",
+      "Bedford Park",
+      "Wakefield",
+      "Bronx Park East"
+   ]
+},
+ "12": {
+   "name": "Andy King",
+   "borough": "Bronx",
+   "phone": {
+      "legislative": "212-788-6873",
+      "district": "718-684-5509"
+   },
+   "email": "Andy.King@council.nyc.gov",
+   "neighborhoods": [
+      "Edenwald",
+      "Co-Op City",
+      "Wakefield",
+      "Williamsbridge",
+      "Baychester"
+   ]
+},
+ "13": {
+   "name": "James Vacca",
+   "borough": "Bronx",
+   "phone": {
+      "legislative": "212-788-7375",
+      "district": "718-931-1721"
+   },
+   "email": "jvacca@council.nyc.gov",
+   "neighborhoods": [
+      "Pelham Parkway",
+      "Pelham Bay",
+      "Country Club",
+      "City Island",
+      "Throggs Neck",
+      "Allerton",
+      "Morris Park"
+   ]
+},
+ "14": {
+   "name": "Fernando Cabrera",
+   "borough": "Bronx",
+   "phone": {
+      "legislative": "212-788-7074",
+      "district": "347-590-2874"
+   },
+   "email": "fcabrera@council.nyc.gov",
+   "neighborhoods": [
+      "Fordham",
+      "Kingsbridge",
+      "Morris Heights",
+      "West Bronx"
+   ]
+},
+ "15": {
+   "name": "Ritchie Torres",
+   "borough": "Bronx",
+   "phone": {
+      "legislative": "212-788-6966",
+      "district": "718-842-8100"
+   },
+   "email": "",
+   "neighborhoods": [
+      "West Farms"
+   ]
+},
+ "16": {
+   "name": "Vanessa Gibson",
+   "borough": "Bronx",
+   "phone": {
+      "legislative": "212-788-6856",
+      "district": "718-588-7500"
+   },
+   "email": "District16Bronx@council.nyc.gov",
+   "neighborhoods": [
+      "West Bronx",
+      "Morrisania",
+      "South Bronx",
+      "Highbridge",
+      "Melrose"
+   ]
+},
+ "17": {
+   "name": "Rafael Salamanca",
+   "borough": "Bronx",
+   "phone": {
+      "legislative": "212-788-7384",
+      "district": "718-402-6130"
+   },
+   "email": "salamanca@council.nyc.gov",
+   "neighborhoods": [
+      "Mott Haven"
+   ]
+},
+ "18": {
+   "name": "Annabel Palma",
+   "borough": "Bronx",
+   "phone": {
+      "legislative": "212-788-6853",
+      "district": "718-792-1140"
+   },
+   "email": "apalma@council.nyc.gov",
+   "neighborhoods": [
+      "Parkchester",
+      "Soundview",
+      "Castle Hill",
+      "Classon Point",
+      "Harding Park"
+   ]
+},
+ "19": {
+   "name": "Paul Vallone",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-7250",
+      "district": "718-619-8611"
+   },
+   "email": "district19@council.nyc.gov",
+   "neighborhoods": [
+      "Bayside",
+      "College Point",
+      "Auburndale",
+      "Beechhurst",
+      "Whitestone",
+      "Bay Terrace",
+      "Flushing",
+      "Douglaston",
+      "Little Neck"
+   ]
+},
+ "20": {
+   "name": "Peter Koo",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-7022",
+      "district": "718-888-8747"
+   },
+   "email": "pkoo@council.nyc.gov",
+   "neighborhoods": [
+      "Flushing",
+      "Queensboro Hill",
+      "Mitchell Gardens",
+      "Kissena Park",
+      "Harding Heights",
+      "Auburndale",
+      "Whitestone"
+   ]
+},
+ "21": {
+   "name": "Julissa Ferreras",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-6862",
+      "district": "718-651-1917"
+   },
+   "email": "CD21invites@council.nyc.gov",
+   "neighborhoods": [
+      "Elmhurst",
+      "East Elmhurst",
+      "Corona",
+      "Jackson Heights"
+   ]
+},
+ "22": {
+   "name": "Costa Constantinides",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-6963",
+      "district": "718-274-4500"
+   },
+   "email": "",
+   "neighborhoods": [
+      "Astoria",
+      "Long Island City",
+      "Jackson Heights",
+      "Rikers Island",
+      "Randall's Island",
+      "Ward's Island"
+   ]
+},
+ "23": {
+   "name": "Barry Grodenchik",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-7075",
+      "district": "718-468-0137"
+   },
+   "email": "m23@council.nyc.gov",
+   "neighborhoods": [
+      "Hollis Hills",
+      "Queens Village",
+      "Little Neck",
+      "Douglaston",
+      "Bayside",
+      "Bellerose",
+      "Floral Park",
+      "Glen Oaks",
+      "Hollis",
+      "Hollis Park Gardens",
+      "Holliswood",
+      "Fresh Meadows",
+      "Oakland Gardens"
+   ]
+},
+ "24": {
+   "name": "Rory Lancman",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-6956",
+      "district": "718-217-4969"
+   },
+   "email": "RLancman@council.nyc.gov",
+   "neighborhoods": [
+      "Briarwood",
+      "Fresh Meadows",
+      "Hillcrest",
+      "Hillcrest Estates",
+      "Jamaica Estates",
+      "Jamaica Hills",
+      "Kew Gardens Hills",
+      "Utopia Estates",
+      "Forest Hills",
+      "Flushing",
+      "Jamaica",
+      "Rego Park"
+   ]
+},
+ "25": {
+   "name": "Daniel Dromm",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-7066",
+      "district": "718-803-6373"
+   },
+   "email": "dromm@council.nyc.gov",
+   "neighborhoods": [
+      "Jackson Heights",
+      "Elmhurst",
+      "East Elmhurst",
+      "LeFrak City",
+      "Corona",
+      "Rego Park",
+      "Woodside"
+   ]
+},
+ "26": {
+   "name": "James Van Bramer",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-7370",
+      "district": "718-383-9566"
+   },
+   "email": "JVanBramer@council.nyc.gov",
+   "neighborhoods": [
+      "Woodside",
+      "Sunnyside",
+      "Long Island City",
+      "Astoria",
+      "Maspeth"
+   ]
+},
+ "27": {
+   "name": "Daneek Miller",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-7084",
+      "district": "718-776-3700"
+   },
+   "email": "District27@council.nyc.gov",
+   "neighborhoods": [
+      "St. Albans",
+      "Hollis",
+      "Cambria Heights",
+      "Jamaica",
+      "Baisley Park",
+      "Addisleigh Park"
+   ]
+},
+ "28": {
+   "name": "Ruben Wills",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-6850",
+      "district": "718-206-2068"
+   },
+   "email": "",
+   "neighborhoods": [
+      "Jamaica",
+      "JFK Airport",
+      "Ozone Park",
+      "Richmond Hill",
+      "South Ozone Park",
+      "Springfield Gardens"
+   ]
+},
+ "29": {
+   "name": "Karen Koslowitz",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-6981",
+      "district": "718-544-8800"
+   },
+   "email": "Koslowitz@council.nyc.gov",
+   "neighborhoods": [
+      "Forest Hills",
+      "Forest Park",
+      "Kew Gardens",
+      "Rego Park",
+      "Richmond Hill"
+   ]
+},
+ "30": {
+   "name": "Elizabeth Crowley",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-7381",
+      "district": "718-366-3900"
+   },
+   "email": "ecrowley@council.nyc.gov",
+   "neighborhoods": [
+      "Glendale",
+      "Ozone Park",
+      "Woodhaven",
+      "Middle Village",
+      "Maspeth",
+      "Richmond Hill"
+   ]
+},
+ "31": {
+   "name": "Donovan Richards",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-7216",
+      "district": "718-471-7014"
+   },
+   "email": "drichards@council.nyc.gov",
+   "neighborhoods": [
+      "Arverne",
+      "Bayswater",
+      "Broad Channel",
+      "Cambria Heights",
+      "Edgemere",
+      "Far Rockaway",
+      "Howard Beach",
+      "Jamaica",
+      "JFK Airport",
+      "Laurelton",
+      "Rockaway Beach",
+      "Rosedale",
+      "South Ozone Park",
+      "Springfield Gardens"
+   ]
+},
+ "32": {
+   "name": "Eric Ulrich",
+   "borough": "Queens",
+   "phone": {
+      "legislative": "212-788-7069",
+      "district": "718-738-1083"
+   },
+   "email": "eulrich@council.nyc.gov",
+   "neighborhoods": [
+      "Belle Harbor",
+      "Breezy Point",
+      "Broad Channel",
+      "Hamilton Beach",
+      "Howard Beach",
+      "Lindenwood",
+      "Neponsit",
+      "Ozone Park",
+      "Rockaway Beach",
+      "Rockaway Park",
+      "South Ozone Park",
+      "South Richmond Hill",
+      "Woodhaven"
+   ]
+},
+ "33": {
+   "name": "Stephen Levin",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-7348",
+      "district": "718-875-5200"
+   },
+   "email": "slevin@council.nyc.gov",
+   "neighborhoods": [
+      "Boerum Hill",
+      "Brooklyn Heights",
+      "Greenpoint",
+      "Williamsburg"
+   ]
+},
+ "34": {
+   "name": "Antonio Reynoso",
+   "borough": "Brooklyn, Queens",
+   "phone": {
+      "legislative": "212-788-7095",
+      "district": "718-963-3141"
+   },
+   "email": "areynoso@council.nyc.gov",
+   "neighborhoods": [
+      "East Williamsburg",
+      "Bushwick",
+      "Ridgewood"
+   ]
+},
+ "35": {
+   "name": "Laurie Cumbo",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-7081",
+      "district": "718-260-9191"
+   },
+   "email": "LCumbo@council.nyc.gov",
+   "neighborhoods": [
+      "Clinton Hill",
+      "Fort Greene",
+      "Crown Heights",
+      "Prospect Heights",
+      "Bedford-Stuyvesant",
+      "Bed Stuy"
+   ]
+},
+ "36": {
+   "name": "Robert Cornegy: Jr.",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-7354",
+      "district": "718-919-0740"
+   },
+   "email": "RCornegy@council.nyc.gov",
+   "neighborhoods": [
+      "Crown Heights",
+      "Bedford-Stuyvesant",
+      "Bed Stuy"
+   ]
+},
+ "37": {
+   "name": "Rafael Espinal",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-7284",
+      "district": "718-642-8664"
+   },
+   "email": "REspinal@council.nyc.gov",
+   "neighborhoods": [
+      "Bushwick",
+      "Cypress Hills",
+      "East New York",
+      "Ocean Hill",
+      "Brownsville"
+   ]
+},
+ "38": {
+   "name": "Carlos Menchaca",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-7372",
+      "district": "718-439-9012"
+   },
+   "email": "info38@council.nyc.gov",
+   "neighborhoods": [
+      "Sunset Park",
+      "Boerum Hill",
+      "Red Hook",
+      "Windsor Terrace"
+   ]
+},
+ "39": {
+   "name": "Brad Lander",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-6969",
+      "district": "718-499-1090"
+   },
+   "email": "lander@council.nyc.gov",
+   "neighborhoods": [
+      "Park Slope",
+      "Cobble Hill",
+      "Carroll Gardens",
+      "Windsor Terrace",
+      "Kensington",
+      "Borough Park"
+   ]
+},
+ "40": {
+   "name": "Mathieu Eugene",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-7352",
+      "district": "718-287-8762"
+   },
+   "email": "mathieu.eugene@council.nyc.gov",
+   "neighborhoods": [
+      "Crown Heights",
+      "Flatbush"
+   ]
+},
+ "41": {
+   "name": "Darlene Mealy",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-7387",
+      "district": "718-953-3097"
+   },
+   "email": "dmealy@council.nyc.gov",
+   "neighborhoods": [
+      "Bedford-Stuyvesant",
+      "Bed Stuy",
+      "Ocean Hill",
+      "East Flatbush"
+   ]
+},
+ "42": {
+   "name": "Inez Barron",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-6957",
+      "district": "718-649-9495"
+   },
+   "email": "",
+   "neighborhoods": [
+      "East New York",
+      "Brownsville",
+      "Canarsie",
+      "East Flatbush"
+   ]
+},
+ "43": {
+   "name": "Vincent J. Gentile",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-7363",
+      "district": "718-748-5200"
+   },
+   "email": "vgentile@council.nyc.gov",
+   "neighborhoods": [
+      "Bay Ridge",
+      "Dyker Heights",
+      "Bensonhurst"
+   ]
+},
+ "44": {
+   "name": "David G. Greenfield",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "718-853-2704",
+      "district": "718-853-2704"
+   },
+   "email": "dgreenfield@council.nyc.gov",
+   "neighborhoods": [
+      "Bensonhurst",
+      "Borough Park",
+      "Midwood"
+   ]
+},
+ "45": {
+   "name": "Jumaane Williams",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-6859",
+      "district": "718-629-2900"
+   },
+   "email": "JWilliams@council.nyc.gov",
+   "neighborhoods": [
+      "Crown Heights",
+      "Canarsie",
+      "East Flatbush"
+   ]
+},
+ "46": {
+   "name": "Alan Maisel",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-7286",
+      "district": "718-241-9330"
+   },
+   "email": "AMaisel@council.nyc.gov",
+   "neighborhoods": [
+      "Bergen Beach",
+      "Canarsie",
+      "Georgetown",
+      "Flatlands",
+      "Marine Park",
+      "Mill Basin",
+      "Mill Island",
+      "Gerritsen Beach",
+      "Madison",
+      "Sheepshead Bay"
+   ]
+},
+ "47": {
+   "name": "Mark Treyger",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-7045",
+      "district": "718-373-9673"
+   },
+   "email": "MTreyger@council.nyc.gov",
+   "neighborhoods": [
+      "Bensonhurst",
+      "Gravesend",
+      "Coney Island",
+      "Brighton Beach"
+   ]
+},
+ "48": {
+   "name": "Chaim Deutsch",
+   "borough": "Brooklyn",
+   "phone": {
+      "legislative": "212-788-7360",
+      "district": "718-368-9176"
+   },
+   "email": "cdeutsch@council.nyc.gov",
+   "neighborhoods": [
+      "Midwood",
+      "Sheepshead Bay",
+      "Homecrest",
+      "Brighton Beach"
+   ]
+},
+ "49": {
+   "name": "Deborah Rose",
+   "borough": "Staten Island",
+   "phone": {
+      "legislative": "212-788-6972",
+      "district": "718-556-7370"
+   },
+   "email": "DROSE@Council.nyc.gov",
+   "neighborhoods": [
+      "Arlington",
+      "Bloomfield",
+      "Bull's Head",
+      "Castleton Corners",
+      "Clifton",
+      "Concord",
+      "Emerson Hill",
+      "Fort Wadsworth",
+      "Graniteville",
+      "Grymes Hill",
+      "Howland Hook",
+      "Mariners Harbor",
+      "New Brighton",
+      "Park Hill",
+      "Port Ivory",
+      "Port Richmond",
+      "Randall Manor",
+      "Rosebank",
+      "Shore Acres",
+      "Silver Lake",
+      "St. George",
+      "Stapleton",
+      "Todt Hill",
+      "Tompkinsville",
+      "West Brighton",
+      "Westerleigh",
+      "Willowbrook"
+   ]
+},
+ "50": {
+   "name": "Steven Matteo",
+   "borough": "Staten Island",
+   "phone": {
+      "legislative": "212-788-7159",
+      "district": "718-980-1017"
+   },
+   "email": "SMatteo@council.nyc.gov",
+   "neighborhoods": [
+      "Arrochar",
+      "Bulls Head",
+      "Castleton Corners",
+      "Concord",
+      "Dongan Hills",
+      "Emerson Hill",
+      "Fort Wadsworth",
+      "Grant City",
+      "Graniteville",
+      "Grasmere",
+      "Island of Meadows",
+      "Meiers Corners",
+      "Midland Beach",
+      "New Dorp",
+      "Oakwood",
+      "Prall's Island",
+      "Richmondtown",
+      "South Beach",
+      "Todt Hill",
+      "Travis",
+      "Westerleigh",
+      "Willowbrook"
+   ]
+},
+ "51": {
+   "name": "Joseph Borelli",
+   "borough": "Staten Island",
+   "phone": {
+      "legislative": "212-788-6989",
+      "district": "718-984-5151"
+   },
+   "email": "borelli@council.nyc.gov",
+   "neighborhoods": [
+      "Arden Heights",
+      "Annadale",
+      "Bay Terrace",
+      "Tottenville",
+      "Great Kills",
+      "Richmondtown",
+      "Charleston",
+      "Rossville",
+      "New Springville",
+      "Eltingville",
+      "Woodrow",
+      "Richmond Valley",
+      "Huguenot",
+      "Prince's Bay",
+      "Pleasant Plains"
+   ]
+}
 }

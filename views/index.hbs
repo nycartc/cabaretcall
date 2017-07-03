@@ -1,0 +1,177 @@
+<div id="menu-buttons" class="button-container">
+  <button id="find" class="top-button">🔍 Find Your Council Member</button>
+  <button id="call" class="top-button">📞 Call Your Council Member</button>
+  <button id="see-calls" class="top-button">📋 See Calls</button>
+</div>
+<div id="back-button" class="button-container">
+  <button id="back" class="top-button">⏎ Back</button>
+</div>
+
+<div id="find-councilmember" class="section">
+  <h3>FIND YOUR COUNCIL MEMBER</h3>
+  <label>Borough:</label>
+   <select id="borough">
+    <option selected disabled></option>
+    <option value="Bronx">Bronx</option>
+    <option value="Brooklyn">Brooklyn</option>
+    <option value="Manhattan">Manhattan</option>
+    <option value="Queens">Queens</option>
+    <option value="Staten-Island">Staten Island</option>
+  </select>
+  <label>Neighborhood:</label>
+  <input id="neighborhood" type="text">
+  
+  <ul id="councilmembers">
+  
+  </ul>
+</div>
+
+<div id="call-script" class="section">
+  <div id="your-district">
+    <div id="district-select1">
+      <label>I live in District:</label>  
+      <select id="district-choice1">
+        <option selected disabled></option>
+        <option value="1">1: Margaret Chin</option>
+        <option value="2">2: Rosie Mendez</option>
+        <option value="3">3: Corey Johnson</option>
+        <option value="4">4: Daniel Garodnick</option>
+        <option value="5">5: Benjamin Kallos</option>
+        <option value="6">6: Helen Rosenthal</option>
+        <option value="7">7: Mark D. Levine</option>
+        <option value="8">8: Melissa Mark-Viverito</option>
+        <option value="9">9: Bill Perkins</option>
+        <option value="10">10: Ydanis Rodríguez</option>
+        <option value="11">11: Andrew Cohen</option>
+        <option value="12">12: Andy King</option>
+        <option value="13">13: James Vacca</option>
+        <option value="14">14: Fernando Cabrera</option>
+        <option value="15">15: Ritchie Torres</option>
+        <option value="16">16: Vanessa Gibson</option>
+        <option value="17">17: Rafael Salamanca</option>
+        <option value="18">18: Annabel Palma</option>
+        <option value="19">19: Paul Vallone</option>
+        <option value="20">20: Peter Koo</option>
+        <option value="21">21: Julissa Ferreras</option>
+        <option value="22">22: Costa Constantinides</option>
+        <option value="23">23: Barry Grodenchik</option>
+        <option value="24">24: Rory Lancman</option>
+        <option value="25">25: Daniel Dromm</option>
+        <option value="26">26: James Van Bramer</option>
+        <option value="27">27: Daneek Miller</option>
+        <option value="28">28: Ruben Wills</option>
+        <option value="29">29: Karen Koslowitz</option>
+        <option value="30">30: Elizabeth Crowley</option>
+        <option value="31">31: Donovan Richards</option>
+        <option value="32">32: Eric Ulrich</option>
+        <option value="33">33: Stephen Levin</option>
+        <option value="34">34: Antonio Reynoso</option>
+        <option value="35">35: Laurie Cumbo</option>
+        <option value="36">36: Robert Cornegy: Jr.</option>
+        <option value="37">37: Rafael Espinal</option>
+        <option value="38">38: Carlos Menchaca</option>
+        <option value="39">39: Brad Lander</option>
+        <option value="40">40: Mathieu Eugene</option>
+        <option value="41">41: Darlene Mealy</option>
+        <option value="42">42: Inez Barron</option>
+        <option value="43">43: Vincent J. Gentile</option>
+        <option value="44">44: David G. Greenfield</option>
+        <option value="45">45: Jumaane Williams</option>
+        <option value="46">46: Alan Maisel</option>
+        <option value="47">47: Mark Treyger</option>
+        <option value="48">48: Chaim Deutsch</option>
+        <option value="49">49: Deborah Rose</option>
+        <option value="50">50: Steven Matteo</option>
+        <option value="51">51: Joseph Borelli</option> 
+      <select>
+    </div>
+    <h3></h3>
+    <ul></ul>
+  </div>
+  <h3>CALL SCRIPT:</h3>
+  <p id="script-text">{{ script }}</p>
+  
+  <div id="district-select2">
+    <div id="warning">
+      Please select a district before logging your call.
+    </div>
+    <label>I called Council Member:</label>  
+    <select id="district-choice2">
+      <option selected disabled></option>
+      <option value="1">1: Margaret Chin</option>
+      <option value="2">2: Rosie Mendez</option>
+      <option value="3">3: Corey Johnson</option>
+      <option value="4">4: Daniel Garodnick</option>
+      <option value="5">5: Benjamin Kallos</option>
+      <option value="6">6: Helen Rosenthal</option>
+      <option value="7">7: Mark D. Levine</option>
+      <option value="8">8: Melissa Mark-Viverito</option>
+      <option value="9">9: Bill Perkins</option>
+      <option value="10">10: Ydanis Rodríguez</option>
+      <option value="11">11: Andrew Cohen</option>
+      <option value="12">12: Andy King</option>
+      <option value="13">13: James Vacca</option>
+      <option value="14">14: Fernando Cabrera</option>
+      <option value="15">15: Ritchie Torres</option>
+      <option value="16">16: Vanessa Gibson</option>
+      <option value="17">17: Rafael Salamanca</option>
+      <option value="18">18: Annabel Palma</option>
+      <option value="19">19: Paul Vallone</option>
+      <option value="20">20: Peter Koo</option>
+      <option value="21">21: Julissa Ferreras</option>
+      <option value="22">22: Costa Constantinides</option>
+      <option value="23">23: Barry Grodenchik</option>
+      <option value="24">24: Rory Lancman</option>
+      <option value="25">25: Daniel Dromm</option>
+      <option value="26">26: James Van Bramer</option>
+      <option value="27">27: Daneek Miller</option>
+      <option value="28">28: Ruben Wills</option>
+      <option value="29">29: Karen Koslowitz</option>
+      <option value="30">30: Elizabeth Crowley</option>
+      <option value="31">31: Donovan Richards</option>
+      <option value="32">32: Eric Ulrich</option>
+      <option value="33">33: Stephen Levin</option>
+      <option value="34">34: Antonio Reynoso</option>
+      <option value="35">35: Laurie Cumbo</option>
+      <option value="36">36: Robert Cornegy: Jr.</option>
+      <option value="37">37: Rafael Espinal</option>
+      <option value="38">38: Carlos Menchaca</option>
+      <option value="39">39: Brad Lander</option>
+      <option value="40">40: Mathieu Eugene</option>
+      <option value="41">41: Darlene Mealy</option>
+      <option value="42">42: Inez Barron</option>
+      <option value="43">43: Vincent J. Gentile</option>
+      <option value="44">44: David G. Greenfield</option>
+      <option value="45">45: Jumaane Williams</option>
+      <option value="46">46: Alan Maisel</option>
+      <option value="47">47: Mark Treyger</option>
+      <option value="48">48: Chaim Deutsch</option>
+      <option value="49">49: Deborah Rose</option>
+      <option value="50">50: Steven Matteo</option>
+      <option value="51">51: Joseph Borelli</option> 
+    <select>
+  
+  </div>
+  
+  <div id="send-container">
+    <button id="send"><span class="emoji">💃🏾</span> Log My Call! <span class="emoji">🕺🏼</span></button>
+  </div>
+</div>
+
+
+<div id="calls" class="section">
+  <h2 id="thank-you"></h2>
+  <h3 id="total-calls"></h3>
+  <div id="chart">
+    <ul id="district-chart">
+    </ul>
+  
+  </div>
+</div>
+
+
+<div id="dance-spinner">
+
+<h1 id="dancers"><span id="d1" class="emoji">💃🏾</span><span id="d2"   class="emoji">🕺🏼</span></div>
+
+</div>

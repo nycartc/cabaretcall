@@ -53,6 +53,19 @@ app.get("/", function (req, res) {
     }
 
     res.render("index");
+    jsonfile.readFile(__dirname + "/public/h.json", function(err, obj) {
+      if (err) {
+        throw err;
+      } else {
+        var d = new Date()
+        obj["r"].push(d);
+        jsonfile.writeFile(__dirname + "/public/h.json", obj, function(err) {
+          if (err){
+            throw err;
+          }
+        });
+      }
+    });
   });
 
 });

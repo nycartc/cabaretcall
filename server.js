@@ -1,14 +1,7 @@
-// server.js
-// where your node app starts
-
-// init project
 var express = require('express');
 var app = express();
 var jsonfile = require('jsonfile');
 var hbs = require("hbs");
-
-// we've started you off with Express, 
-// but feel free to use whatever libs or frameworks you'd like through `package.json`.
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));
@@ -60,6 +53,19 @@ app.get("/", function (req, res) {
     }
 
     res.render("index");
+    jsonfile.readFile(__dirname + "/public/h.json", function(err, obj) {
+      if (err) {
+        throw err;
+      } else {
+        var d = new Date()
+        obj["r"].push(d);
+        jsonfile.writeFile(__dirname + "/public/h.json", obj, function(err) {
+          if (err){
+            throw err;
+          }
+        });
+      }
+    });
   });
 
 });
@@ -72,27 +78,31 @@ app.get("/call/new", function (req, res) {
   try {
     if (req.query.district){
       var district = req.query.district;
-      jsonfile.readFile(__dirname + "/public/calls.json", function(err, obj) {
-        if (err) {
-          throw err;
-        } else {
-          var d = new Date()
-          obj[district].push(d);
-          jsonfile.writeFile(__dirname + "/public/calls.json", obj, function(err) {
-            if (err){
-              throw err;
-            } else {
-              res.status(201);
-              res.json(obj);
-            }
-          });
-        }
-      });
+      if (parseInt(district) > 0 && parseInt(district) < 52){
+        jsonfile.readFile(__dirname + "/public/calls.json", function(err, obj) {
+          if (err) {
+            throw err;
+          } else {
+            var d = new Date()
+            obj[district].push(d);
+            jsonfile.writeFile(__dirname + "/public/calls.json", obj, function(err) {
+              if (err){
+                throw err;
+              } else {
+                res.status(201);
+                res.json(obj);
+              }
+            });
+          }
+        });
+      } else {
+        throw "Error: Invalid district";
+      }
     } else {
       throw "Error: No message";
     } 
   } catch (err) {
-    sendError(req, res);
+    sendError(req, res, err);
   }
 });
 

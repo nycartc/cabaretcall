@@ -1,12 +1,9 @@
 var borough;
 var neighborhood = [];
 var districts;
-var districtMaps = false;
-var district = false;
-var mapDistrict;
+var district;
 var originalScript = $( "#script-text").html();
 var width = $(window).width();
-var height = $(window).height();
 $( "div#chart" ).css("max-width", width);
 var sent = false;
 
@@ -47,20 +44,8 @@ $( "button#back" ).click(function() {
   $( ".section" ).hide();
 });
 
-function showDistrictInfo(){
-  if (district != false && districtMaps != false){
-    $( "#find-councilmember").show();
-  } else {
-    setTimeout(function() {
-      showDistrictInfo();
-    }, 2500);
-    return;
-  }
-}
-
 $( "button#find" ).click(function() {
-  $( "#find-councilmember").show();
-  //showDistrictInfo();
+  $( "div#find-councilmember" ).show();
 });
 
 $( "button#call" ).click(function() {
@@ -91,38 +76,20 @@ function clear() {
   $( "#your-district ul").html("");
   $( "#script-text").html(originalScript);
   $( "#district-select" ).hide();
-  $( "#neighborhood" ).val("");
 }
 
 
 /* Find Council Member */
 
+
+
 $.ajax({
   url: "/districts.json",
   success: function(data) {
     districts = data;
-    checkDistrictData();
+    addDistricts();
   }
 });
-
-
-$.ajax({
-  url:"/districtmaps.json",
-  success: function(data) {
-    districtMaps = data;
-  }
-})
-
-function checkDistrictData() {
-  if (districts && districtMaps) {
-    addDistricts()
-  } else {
-    setTimeout(function() {
-      checkDistrictData();
-    }, 200)
-  }
-}
-
 
 function addDistricts() {
   for (var i in districts) {
@@ -147,32 +114,23 @@ function addDistricts() {
       "' class='" + 
       classes +
       "'>" + 
-        "<div class='district-text'><h3 class='district-title'>" +
+        "<ul class='district-info'>" +
+          "<li>" +
           i + 
           ": " + 
           district.name +
-          "</h3><p class='neighborhoods'>" +
+          "</li>" +
+          "<li class='neighborhoods'>" +
           neighborhoodList +
-        "</p><div class='i-live-here-container'><div class='i-live-here'>I live here!</div></div></div><div class='map-link'><img class='map-image' src='" +
-        districtMaps[i] +
-        "'><h3 class='view-map'>View Map</h3></div></div>" +
+          "</li>" +
+        "</ul>" +
       "</li>"
-    );
-    $( "#maps" ).append(
-      "<div id='full-map-container-" +
-      i +
-      "' class='full-map-container' district='" +
-      i +
-      "'><div class='close-map'>Close Map</div><div class='full-map-image-container'><img class='full-map' src='" +
-      districtMaps[i] +
-      "'></div><div class='i-live-here-container full-i-live-here-container'><div class='full-i-live-here'>I live here!</div></div></div>"
     )
   }
 }
 
 
 function hideBorough(element) {
-  borough = $($("select#borough option").filter(":selected")).val();
   if (borough){
     if (element.attr("borough").indexOf(borough) < 0 ) {
       element.hide();
@@ -194,7 +152,7 @@ function chooseDistrict(){
   $( "#your-district h3").html("District " + district + ": " + yourDistrict.name);
   //<a href="tel:+15555551212">555-555-1212</a>
   $( "#your-district ul").append(
-    "<li>📞 <a href='tel:+1" +
+    "<li><a href='tel:+1" +
     yourDistrict.phone.legislative +
     "'>" +
     yourDistrict.phone.legislative +
@@ -202,7 +160,7 @@ function chooseDistrict(){
   );
   if (yourDistrict.email) {
     $( "#your-district ul").append(
-      "<li>📠 <a href='mailto:" +
+      "<li><a href='mailto:" +
       yourDistrict.email +
       "?Subject=Let%20NYC%20Dance%3A%20Repeal%20the%20Cabaret%20Law'>" +
       yourDistrict.email +
@@ -214,6 +172,7 @@ function chooseDistrict(){
 
 
 $( "select#borough" ).change(function() {
+  borough = $("select#borough option").filter(":selected").val();
   $( "input#neighborhood" ).val("");
   $( ".district" ).each(function() {
     $( this ).show();
@@ -229,41 +188,17 @@ $( "input#neighborhood" ).keyup(function() {
     if (c.toLowerCase().indexOf(input.toLowerCase()) < 0){
       $( value ).hide();
     }
-    hideBorough( $(value) );
+    hideBorough($( value ));
   });
 });
 
-$( "body" ).on("click", "div.i-live-here-container", function() {
-  district = $( this ).parent().parent().attr("district");
-  if (!district) {
-    district = mapDistrict;
-  }
-  $( ".full-map-container" ).hide();
-  $( "#main" ).show();
+$( "#councilmembers" ).on("click", "ul.district-info", function() {
+  district = $( this ).parent().attr("district");
   $( "#find-councilmember").hide();
   chooseDistrict();
   $( "#call-script").show();
   window.scrollTo(0, 0);
-});
 
-$( "#maps" ).on("click", ".close-map", function() {
-  $( ".full-map-container" ).hide();
-  $( "#main").show();
-});
-
-$( "#councilmembers" ).on("click", "div.map-link", function() {
-  mapDistrict = $( this ).closest( "li" ).attr("district");
-  var map = "#full-map-container-" + mapDistrict;
-  $( "#main" ).hide();
-  if (width > height) {
-    $( map ).children( ".full-map-image-container" ).children( "img.full-map").css("height", height*0.6 + "px");
-    $( map ).children( ".full-map-image-container" ).children( "img.full-map").css("width", "auto");
-  } else {
-    $( map ).children( ".full-map-image-container" ).children( "img.full-map").css("height", height*0.6 + "px");
-    $( map ).children( ".full-map-image-container" ).children( "img.full-map").css("width", "auto");
-  }
-  
-  $( map ).css("display", "block");
 });
 
 
